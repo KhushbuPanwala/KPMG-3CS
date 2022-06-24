@@ -1,0 +1,34 @@
+old Dev :https://3cs-dev.azurewebsites.net/
+Dev :https://3cs-dev.azurewebsites.net/
+staging : https://3cs-staging.azurewebsites.net/
+
+Discussion Document
+https://promactinfotech1.sharepoint.com/sites/KPMG-ContingentWMS/_layouts/15/Doc.aspx?sourcedoc=%7B6DDA8DE8-77DD-49A3-BCF3-06AC1A547356%7D&file=Decision-Document.docx&action=default&mobileredirect=true&CT=1597816963175&OR=ItemsView
+Share Point
+https://outlook.office365.com/mail/group/promactinfo.com/KPMG-ContingentWMS/files
+
+Documents link
+https://promactinfotech1.sharepoint.com/:w:/r/sites/KPMG-ContingentWMS/_layouts/15/Doc.aspx?sourcedoc=%7B913B7E50-2755-417D-BA02-92FC95280365%7D&file=KPMG-3CS%20%E2%80%93%20Reference%20Documentation.docx&action=default&mobileredirect=true
+
+ER Diagram
+https://app.diagrams.net/#Wb!I6aSlNDFNkGQpTbuIvYGZDV8kG5DwSFBjIGhe5SGN5UzTjQRNzrFRaBfO-Gy3m-W/01DJMHPKWQXKWJYGRKL5B3RBCX4DUIPWNX
+https://app.diagrams.net/#Wb!I6aSlNDFNkGQpTbuIvYGZDV8kG5DwSFBjIGhe5SGN5UzTjQRNzrFRaBfO-Gy3m-W%2F01DJMHPKWQXKWJYGRKL5B3RBCX4DUIPWNX114
+
+DFD Diagram
+https://app.diagrams.net/#Wb!I6aSlNDFNkGQpTbuIvYGZDV8kG5DwSFBjIGhe5SGN5UzTjQRNzrFRaBfO-Gy3m-W%2F01DJMHPKSFTBJHWEXW2VFKLKLOF6IU7GDI
+
+
+npm swagger package
+	npm i nswag
+	
+Loader 
+https://nezhar.com/blog/create-a-loading-screen-for-angular-apps/
+https://stackblitz.com/github/Zak-C/ngx-loading?file=projects%2Fngx-loading%2Fsrc%2Flib%2Fngx-loading.module.ts
+
+Spiner
+https://www.npmjs.com/package/ngx-loading#demo
+https://www.npmjs.com/package/ngx-spinner 
+
+https://material.angular.io/components/tree/examples
+
+https://www.c-sharpcorner.com/article/how-to-add-loaderspinner-in-angular-8-application/

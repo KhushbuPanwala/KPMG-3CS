@@ -1,0 +1,924 @@
+K3CS 
+10 August 2020 
+46121 Analysis of K3CS - 4
+	 Watching video -1
+	 Refer MOM -1
+	Discussion with Kanan mam and suparna for User management in K3CS - 1
+	Standup meting  -0.75
+	Discussion with team for PR Guideline -0.5
+	Refer ERD and DFD for User management
+	
+11 August 2020
+	Standup meting -0.25
+	Discussion with team for Routing and swagger -1
+	Discussion with kananmam for System role -1.5
+	Discussion with Tufel for swagger -0.5
+	Tech discussion
+	Analysis for System Role
+	https://redmine.promactinfo.com/issues/44450 	Solve IATool Issue for enter key press
+	Review Krishna's PR  -0.5
+	
+12 August 2020
+	Analysis for System Role create document table structure -3
+	Discussion with Suparna for user management work flow and road map -1.25
+	Discussion with kananmam for user management work flow and road map -0.5
+	Solve issue of rcm bulk upload with suparna for IATool -0.5
+	Solve issue of Krishna regarding swagger
+	Implement loader
+	Discussion with team for api naming conversion
+	
+13 August 2020	
+	Implement loader -4
+	Model creation for user management  2
+	Discussion with suparna and deveshri for user management flow -2
+	Discussion with IATool team for rcm bulk upload issue -0.5
+	PR review -0.5
+	Discussion with Krishna for her swagger and api calling issue-0.5
+	
+14 August 2020
+	Discussion with suparna and kananmam for IA tool given document in mail -0.75
+	Continue Model creation and seed data for user management -4
+	Discussion with suparna for remaining user management flow- 1
+	Discussion with developer for Multitanet db structure -1.25
+	Discussion with suparna and team for Database structure for k3cs -1.5
+	
+17 August 2020
+	46101 https://redmine.promactinfo.com/issues/46101 pr review --0.5 --done
+	46121 Standup meting -0.5
+	46191 Discussion with suparna for remaining user management flow- 4
+	46191 Discussion with suparna and kananmam for  contractor work flow- 0.75
+	46191 Discussion with suparna ,Rushi Sir for multitanent data structure -0.5
+	46192 Model creation and seed data for user management work flow -2.5
+	46101: pr review --0.25 --done
+
+18 August 2020
+	46121 Standup meting -0.5
+	46121 Discussion with  team for delete issue -0.5
+	46191 Discussion with team for updated user management work flow -1.75
+	46191 Discussion with suparna, kananmam, devashri for role selection in tanent admin -1
+		  Tech session -1.5
+		  HR Stop application demo -1
+	46191 Create Excel sheet for table structure   -3
+
+19 August 2020	
+	46191 Create Excel sheet for table structure   -3
+	46191 Discussion with Suparna for table structure -1
+	46192 Model creation and seed data for user management work flow -2.5
+
+20 August 2020- sprint 2
+	Standup meting,
+	46192 Model creation and seed data for user management work flow -2.5
+	sprint planning 
+	estimation for user management modules
+	ER discussion
+	IdentityUser
+	https://redmine.promactinfo.com/issues/46263
+	
+21 August 2020
+	IATool Point discussion -0.5
+	Standup meting, 0.5
+	seed data for user management work flow -4
+	discussion with suparna and rushi for ASPNetClaim 1.5
+	Tenant List - 4
+	
+22 August 2020
+	Standup meting,
+	Tenant List
+	
+25 August 2020
+Standup meting,
+	Configure code coverage
+	Server and client side tenant
+	discussion with Team for ASPnet0	
+
+26 August 2020
+Standup meting,
+	reading document  with ASPnet0
+	Server and client side tenant
+27 August 2020
+	Standup meting,
+	discussion with Team for query for ASPnet0	
+	reading document  with ASPnet0
+	Changes for IATool
+	Unit test case for  tenant
+
+28 August 2020 
+	Standup meting,
+	reading document  with ASPnet0
+	Changes for IATool
+	
+31 August 2020
+	Watching video for ASPnet0
+	Explore module structure for ASPnet0
+	Create demo with ASPnet0
+	
+3 September 2020
+Sprint planning discussion with kananmam and team -0.5
+standup meting 0.25
+IATool
+	
+4 September 2020
+standup meting 0.25
+IATool -6.5
+Tenant creation-1.5
+
+7 September 2020
+standup meting 0.25
+client side file upload valiation IATool -1.5
+Tenant creation-6.5
+
+8 September 2020
+standup meting 0.25
+Server side file upload validation IATool -1.5
+Generate PDf  -5
+Tenant creation-2
+Discussion with team for Upload file -0.5
+
+9 September 2020
+Tenant creation-
+standup meting 0.25
+Discussion with team for completed things in IATool
+Discussion with Rushi sir for Tenant admin	
+IATool -- file upload issue in suravay and sampling
+
+10 September 2020
+Tenant creation-
+standup meting 0.25
+Tenant User
+
+11 september 2020
+standup meting 0.25
+Tenant User
+
+14  september 2020
+standup meting 0.25
+Tenant User
+Discussion with team for training
+discussion with Nidhi for Menu routing
+
+15  september 2020
+standup meting 0.25
+Yesterday work on Company Master
+PR Review in IATool
+
+16 September 2020
+Add filter for tenant selection in Company Master and tenant user  -4
+Check tenant creation issue in dev and staging environment -2.5
+Work in IATool -2
+
+17 September 2020
+Work in IATool -6 mom 20th august point no. 10
+Standup meting 0.25
+Sprint planning discussion  1
+Discussion with team for Pending points in IATool 0.5
+Discussion with nidhi for routing issue 0.5
+
+18 September 2020
+Standup meting 0.25
+Implement kpmgadmin master
+Implement Multitenant functionality
+Discussion with Debojyoti and Rushi sir for tenant creation
+
+21 september 2020
+Standup meting 0.25
+Implement Multitenant functionality -1
+Implement bulk upload -4
+IATool -3
+
+22 September 2020
+Standup meting 0.5
+Discussion with Kanan mam for sprint work planning
+Implement bulk upload -4
+Implement tenant wise container creation in azure for file storage 0
+Implement 1 tier architecture   3
+
+23 September 2020
+Implement 1 tier architecture  8.5
+Standup meting 0.5
+
+
+24 september 2020
+Standup meting 0.25
+Discussion with suparna  for Host and tenant wise changes in master 0.5
+Discussion with team for tenant creation changes -0.75
+IATool   
+	Discussion with setu for Strategic analysis flow change -0.5
+	Analysis for code change in Strategic analysis -3
+	Server Implementation for Strategic analysis admin side  flow change -3
+
+
+
+25 September 2020
+Standup meting 0.25
+IATool   
+	Server Implementation for Strategic analysis admin side flow change -4
+	Client side implementation for Strategic analysis admin side flow change -4
+	Discussion with suparna for Code changes in Strategic analysis 1
+
+26 September 2020  -ls
+Standup meting 0.75
+IATool   
+	Implementation for Strategic analysis admin side flow change -2		
+	Discussion with suparna for Code changes in Strategic analysis 1
+
+
+
+
+28 September 2020
+Standup meting 0.5
+IATool   
+	Server Implementation for Strategic analysis user side flow change -4
+	Client side implementation for Strategic analysis user side flow change -4
+	Discussion with suparna for user side Code changes in Strategic analysis 1
+
+29 September 2020
+Standup meting 0.15
+IATool   
+	Server Implementation for Strategic analysis user side flow change -2
+	Client side implementation for Strategic analysis user side flow change -2
+	Implementation changes for delete email attachment 1
+	Implementation changes for RCM Process subprocess name size 1
+	Discussion with suparna for  Code changes in Sampling  1
+	Generate PDF for Strategic analysis	 1.5
+	
+30 September 2020
+281  tenant implementation change
+Standup meting 0.75
+IATool
+	Generate PDF for Strategic analysis  3
+	Discussion with nidhi for pdf design  0.5
+	Analysis for magic number  1
+	Discussion with Kanan mam for Magic number  0.5
+	
+Sprint 5	
+1 October 2020
+IATool
+	 Discussion with Setu and suparna for staging Issue  -1
+	 Change implementation to show Version in survey drop down  -0.5
+	 Change implementation to show user and admin side survey based on current logged in user  -1
+3CS
+	Standup meting 0.5
+	Sprint planning discussion 0.5
+	Tenant changes
+	Fines bulk upload change
+	Analysis for Bulk upload in all module
+
+5 October 2020	
+IATool
+	Discussion with Setu for changes in Strategy analysis -0.5
+	Implement changes given by Setu  -3
+
+3CS
+	Standup meting 0.25
+	Discussion with Kananmam for userwise giving Permission module 0.25
+	Changes for tenant user -3
+	Changes for KPMG Admin user -1
+	Discussion with suparna for KPMG User login  -0.5
+
+6 October 2020
+IATool
+	Implement changes given by Setu  -1
+
+3CS
+	Standup	meting 0.25
+	Implement user wise permission in KPMG Admin user master -5
+	Implement user wise permission in Tenant USer master -2.5
+7 October 2020 
+3cs
+	Standup	meting 0.25
+	Implement user wise permission in Tenant Admin master
+	Discussion with team and suparna for Permission module roadblock -2
+	Implement Contractor invoice module	
+	
+8 October 2020
+	Standup	meting 0.25
+	Implement Contractor invoice module	
+	Implement log exception
+	
+9 October 2020	
+	Implement puppeter setup
+	
+	12 to 17
+	19 to 23 half
+	
+	
+22 
+	Server 	side validation on Health register Bulk upload	
+	Client side implementation on Reporting accident Bulk upload	
+	
+23 October 2020
+	Server side validation on Reporting accident Bulk upload
+	Fix issue of Contingent work force bulk upload
+	Standup meting
+	
+24 October 2020
+	Contractor claim bulk upload
+	Tested reporting accident bulk upload in dev
+	Look in to bulk upload issue in staging for contingent work force upload
+	
+	
+Contigent work force
+	Reporting Accidents
+	Contractor claim
+	Bonus Payment
+	Tax deducted at source
+	
+	overtime calculation  in Daily attendance for bulk upload 
+			
+			
+		Discussion 532	
+		
+02 -11-2020
+Tenant background process
+Leave management upload
+
+3 -11-2020
+Daily attendance upload
+Fix bulk upload issue in contractor module
+
+4 November 2020
+Try different solution for tenant creation issue -2.5
+Fix bulk upload issue in contractor module
+Holiday master upload
+
+5 November 2020
+Holiday master upload
+Try different solution for tenant creation issue -2.5
+Discussion with krishna and tufel for manage Back date data from tenant master-0.5
+
+6 November
+Discussion with DC Tenant creation issue -2.5
+Discussion with Kanan mam and tufel for Back date data -0.5
+Discussion with tufel for Back date  data -0.5	
+Implement back date data in tenant master
+
+8 November 2020
+Discussion with DC Tenant creation and solved issue -1
+
+9 November 2020
+
+11-11-2020
+Discussion with DC for tenant creation
+Add fields in tds bulk upload
+Fix routing issue for contractor and workforce module
+testing - datas displayed as per loged in 
+	user also test same for export to excel
+Diuscussion with ketan for File upload CHub project
+
+12-11-2020
+add  4 fields in tenant 
+Test Complience management  data as per logged in user
+Implement background process for tenant creation
+
+
+13-11-2020
+Implement different scenario for leave management bulk upload
+VAPT point testing
+Discussion with rushi sir for tenant creation issue 
+
+17-11-2020
+VAPT point implementation
+check tenant creation issue 
+pending log time 
+535 - leave management
+
+18-11-2020
+Standup meting -0.5 min
+VAPT Point review -0.5
+Tenant creation issue -1
+discussion with rushi sir for tenant creation time issue -2
+Red field validation  -3 done
+Check list page data loading issue -0.5
+Check vapt point  no.1 -1
+
+19-11-2020
+Discussion with Rushi sir for tenant creation timming issue
+Solve Tenant creation file upload issue
+Solve Contingent work force bulk upload issue
+VAPT point week password policy -5
+VAPT point captcha code integration
+
+20-11-2020
+Solve Tenant creation  issue
+VAPT point week password policy
+Input field validation -5
+Captcha code implementation
+Discussion with rushi sir for Password weak policy , captcha key
+
+23-11-2020
+Dual authentication
+Input field validation
+Check bulk upload issue for leave management in staging
+
+24-11-2020
+fix issue for Input field validation in tenant , tenant user, admin user, contractor, workforce 
+Look issue for File upload during tenant creation in staging and dev
+Bulk upload alpha numeric validation
+
+--reporting accident --done
+
+25-11-2020
+Download file in tenant -645 -3
+php file restriction -611
+bulk upload input validation -611
+Weak password policy  
+dual authentication -611
+leave management bulk upload flexible leave 535
+
+
+
+25-11-2020
+Download file in tenant -645 -3
+php file restriction -611
+bulk upload input validation -611
+discussion Weak password policy  
+dual authentication -611
+leave management bulk upload flexible leave 535
+hide toggle from work flow template
+
+26-11-2020
+Bulk upload in tenant user -650
+Test weak Password Settings in dev and staging
+Discussion with nidhi and design for tenant list page
+dynamic card binding for masters
+
+27-11-2020
+Scrum  0.75
+Implement dynamic card binding based on permission in master, modules, reports
+Discussion with rushi sir for Aspnet zero version Upgrade
+Start implementation for Aspnet zero version upgrade  process
+
+28-11-2020 LS
+Discussion with rushi sir for Aspnet zero version Upgrade
+Upgrade Aspnet zero version in 3cs application
+
+3-12-2020
+Change validation message for weak password policy
+Test functionality in dev environment after aspnet zero version upgrade
+Update implementation for tenant creation process time optimization
+scrum
+discussion with team for client given points and issue
+
+4-12-2020
+Scrum
+Reporting accident alpha numeric issue in signature field   --done
+Remove alpha numeric validation from non mendatory fields in bulk upload - all module  --done
+Module - Health Register :- While doing Bulk upload :- If "Suspended from work" has been ticked as "No" then 
+	excel should not ask for "Suspension Start date & End date" as required or mandatory field-- done not possible to change lable in excel 
+end date should be greater then start date
+
+Discussion with rushi sir for tenant creation process time optimization issue
+Update implementation for tenant creation process time optimization
+ 
+682 --set connection string for production environment in tenant creation
+-- add required in zone for workforce bulk upload
+leave management Bulk upload changes for apply leave more then available leave
+
+
+7-12-2020
+create tenant in production -6
+discussion with rushi sir for captcha issue -0.5
+bulk upload issue for zone in workforce
+Scrum Meting
+
+8-12-2020
+do setting in production for captcha , two factor authentication -611
+check issue for username in tenant creation 
+Fix work force bulk upload issues
+Meting with client for VAPT point -0.5
+update contingetn workforce spelling in production db
+scrum  -1
+Discussion with tufel, kanan for construction activity change request	-0.5
+give estimation for bulk upload and export to excel
+
+9-12-2020
+leave management bulk upload issue for same date  -535 --done
+Health register bulk upload - excel sheet -testing observation status -7 dec-- done
+Two factor mail sending  --done
+Vapt point changes --point 1 done 
+tenant pagging and sorting -done
+
+10-12-2020 
+Seak Leave
+
+11-12-2020
+discussion with devashree for VAPT point
+production testing
+change request bulk upload in construction activity
+update log time
+
+14-12-2020
+Test bulk upload in production
+fix production sheet issue for searching and sorting
+
+
+15-12-2020
+change date formate in all module, master, report, export to excel
+Discussion with team for pending points given by client
+fix production sheet issue
+fix work force bulk upload issue in production and staging
+solve admin menu item
+
+16-12-2020
+Discussion with team of today work
+set amount format
+add from month and year in work force bulk upload
+budget bulk upload 
+check bulk upload issue given by devashree
+
+17 -12-2020
+Help nidhi for routing -4
+budget bulk upload validation  -478 -1
+change amount format in master 2.5
+contractor bulk upload issue for mobile no 1
+
+18-12-2020
+Discussion with nidhi for routing issue -0.5
+solve routing issue for admin panel -0.5
+discussion with Devashree for bulk upload in budget, workforce, contractor -0.5
+Discussion with Tufel, devashree for tenant view functionality
+Implement tenant view functionality  -6 to 8 hrs
+check back button routing issue in master 0.5
+Discussion with kananmam and team for pending works -0.5
+
+19-12-2020 -LS
+Set back button routing in masters, admin panel -3
+Change Creation date time in strategic analysis user list page -2 IATool --done
+change flexible leave validation in tenant
+
+21-12-2020
+Discussion with rushi for dynamic menu issue -0.5
+discussion with Kinjal bhai for dynamic menu issue- 1
+Add validation for tenant date -3
+add Budget bulk upload location validation  - 1.5
+
+22-12-2020
+Discussion with suparna for seed data for kpmg admin role 0.5
+discussion with Kinjal bhai for dynamic menu issue- 0.5
+Implement seed data for default admin user  -6
+Discussion with Client for phase 2 requirement -1
+
+23-12-2020
+Tenant date validation change -1.5
+Scrum -0.5
+Analysis and estimation for phase 2 task -4
+Discussion and solved  production concurrent login issue with tufel -2
+Update log time -0.5
+
+24-12-2020
+Scrum  -0.5
+Discussion with Client for phase 2 requirement -0.25
+Audit log report
+Tenant wise appearance setting
+Linking account , Delegate responsibility
+Tenant user changes (as per user management)
+
+28-12-2020
+Tenant user changes (as per user management)
+Tenant wise appearance setting
+discussion with ali for appreance setting issue
+Discussion with nidhi for menu design changes as per tenant appearance
+
+29-12-2020
+Scrum
+Bulk upload changes for tenant user
+discussion with kinjal bhai for tenant appreance setting issue
+export to excel in tenant user
+Help desk
+discussion with devashree and setu for manage delegation 
+change manage delegation --add drop down to show active delegated user
+
+30-12-2020
+scrum 
+Add checkbox in contractor and workforce --
+bulk upload changes contractor and workforce
+client meting - 1
+Bug fix for audit log -1
+change in bulk upload for tenant user -1
+look in to notification
+
+31-12-2020
+Phase 2 analysis requirement for workforce, contractor
+Discussion with Krishna for sso functionality
+Discussion with Kananmam for sprint 8 planning and estimation
+Discussion with Kananmam and devashree for phase 2 requirement for workforce and contractor
+Discussion with Kananmam ,devashree and client for phase 2 requirement for workforce and contractor
+update log time
+Update mom sheet for 24 December 2020 and 31 December 2020 
+Analysis for dashboard 4
+Discussion with Kananmam for deshboard4
+Discussion with client for deshboard 4
+
+
+1-01-2021
+Scrum 
+Changes for contractor and workforce
+Dashboard 4
+
+4-01-2021	
+Scrum 
+check issue for tenant admin login issue
+tenant wise setting issue
+working on audit log browser issue
+working application not run in ie
+Discussion with ali for email template functionality
+Discussion with kananmam for email template requirement
+Introduction of CI / CD 
+Analysis for mail template
+
+5-01-2020
+Discussion with client for email template query
+status call with client
+Scrum 
+update mom sheet
+Estimation for mail template functionality	
+Table creation for email template
+
+
+
+06-01-2021
+Seed data for email template
+Ui binding for email permission
+Scrum
+Discussion with client for dashboard and status 
+Discussion with nidhi for email permission design and input switch
+
+
+7-01-2020
+Scrum
+Binding data for email permission	
+Discussion with tufel and krishna for location ,designation etc fields detail in workfroce
+Discussion client for location ,designation etc fields detail in workfroce
+
+8-01-2020
+Scrum
+CICD session -1.15
+Binding data for edit email content	-6
+Discussion with client for Email template design and confirmation -0.15
+
+
+9-01-2020
+Scrum
+Update Seed data as per email template
+
+
+
+11-1-2021
+Integrate common functionality for mail sending for reminder send for approval mail using azure queue in all module
+Enable tenant wise mail sending settings
+
+12-1-2021
+Schedule  for remaining mails
+Dynamic mail binding testing
+
+13-01-2021 -- Casual Leave
+
+18-01-2021
+Standup meting
+Discussion with client
+	Query 1: Ex. reviewer1 he budget ke wft ko review karne ke liye . aur cc main user1 add karu to user1  ko bhi mail karna he ? user1 kisi bhi type ka ho sakta he
+	Query 2: show email permission in User wise permission? or can give default to only tenant admin / tenant user / kpmg admin user
+Implement Schedule for monthly attendance mails
+Add condition to send mail based on permission
+
+
+19-01-2021
+Standup meting 
+Dynamic email functionality
+CICD session
+Discussion with rushi sir, kinjal bhi, ali for tenant wise seeding issue
+
+20-01-2021
+Change mail to and subject for Help desk 
+Update implementation to show browser information in audit log
+Manually apply migration in dev and staging environment 
+Discussion with kananmam for tenant wise seeding issue
+Scrum
+Implement zendesk web widget 0.5
+
+
+Add time log 19 and 20 date
+
+21-01-2021
+Analysis for external login setting in chub -0.5
+Analysis for notification  -0.5
+Discussion with Ketal for notification implementation  -0.15
+Implementation for send notification for reminder for approval - 7
+Scrum -0.15
+Discussion with Kananmam for query regarding notification  -0.15
+
+22-01-2021
+Implementation for send notification for reminder for approval -5
+Implementation for external login user setting as per CHUB  -1.5
+Configure send mail queue for development, staging, production environment -1.5
+Discussion with ali for email attachment 0.15
+Scrum -0.15
+
+
+25-01-2021
+SL
+
+
+27-01-2021
+Discussion with kananmam for sprint 10
+Discussion with nidhi for Any/all reviewer
+Start testing Email template in dev 
+Start testing for notification in dev 
+Attend CICD Session  -pending
+Discussion with kananmam for contractor registration 
+Discussion with Devashree, Krishna for Dashboard 4 Redirection    -pending
+Standup meting   -pending
+Analysis and Estimation for wft task, contractor registration
+ 
+28-01-2021
+Start implementation for any/all reviewer in wft  -pending
+Check daily attendance bulk upload issue  -pending
+Start testing Email template in staging to check staging send mail queue configuration
+Start testing for notification in staging 
+
+29-01-2021
+Start implementation for any/all reviewer in wft  -pending
+Start implementation for contractor basic detail 
+
+01-02-2021
+Implementation for contractor registration detail 
+
+02-02-2021
+Implementation for contractor registration detail 
+Implementation of wft for contractor registration detail 
+Discussion with Client, Devashree, Kananmam for any/all in wft  -0.15
+
+
+03-02-2021
+Scrum -0.15
+Discussion with client and kananmam for showing contractor with basic detail  -0.15
+Discussion with Kananmam and devashree for WFT change requirement -0.15
+Discussion with devashree for contractor registration work flow change -0.15
+Analysis and estimation for wft change requirement  -0.5
+Pr Review -0.10
+Implement contractor registration  -6.5
+	1. Add condition to validation deleted contractor registration
+	2. Add condition to validate wft is on for contractor registration
+	3. Hide view, edit, permission for basic detail contractor
+	4. Implementation to delete basic detail contractor
+
+04-02-2021
+Scrum
+WFT change request
+
+08-02-2021
+Implementation WFT functionality for any and all in all module
+Test WFT any and all  in all module in local
+
+09-02-2021
+Implementation WFT functionality for any and all in compliance module
+Test WFT any and all  in compliance module in local
+Implementation validation for contractor claim to validate 
+Status call and query discussion with client
+Discussion with kananmam for Sprint 11 and query
+Stand up meting
+Analysis and estimation for Appointment letter and experience letter
+Attend Handover meting with Devashree and setu
+Update mom sheet
+
+10-02-2021
+Test case verification for wft any and all
+Code change for contractor registration as per selected tenant 
+Knowledge base document
+Attend Handover meting with Devashree and setu
+Test case verification for Contractor registration	
+Dashboard showing based on user wise permission
+
+11-02-2021
+Standup Meting
+Discussion with setu for contractor registration
+Discussion with Namrata for 3cs project setup and dashboard design 
+Discussion with Kananmam and Client for letters query
+Implementation for Appointment letter and Experience letter
+
+
+12-02-2021
+Test contractor registration issue in staging
+Implementation for Appointment letter and Experience letter
+
+
+13-02-2021 to 16-02-2021 log updated in azure
+
+17-02-2021
+903 do changes given in meting   -5
+client discussion for pending things -1.5
+Production release - issue -1
+Testing in local and dev for changes -1
+Discussion with team for pending things -1
+Any all wft all reviwer -2
+
+18-02-2021
+Productin release -0.5
+Discussion with client for customised appointment letter  0.5
+discussion with kananma for appointment letter -0.5
+stand up meting-0.10
+wft all reviewer changes in all module -1
+Solve production issue for exception report -1.5
+testing in  production  0.5
+Implement customised appearance letter 
+
+19-02-2021
+Implement customised appearance letter  --design pending --906
+contractor file upload issue --907
+
+
+20-02-2021 to 22-02-2021 added in azure
+
+23-02-2021
+Implement bulk upload in compliance master  -6
+Discussion with kananmam for sprint 12 -0.5
+Status call with client -1 
+discussion with krishna and tefel for pending point sheet tas -0.5
+
+24-02-2021
+Update MOM Sheet -0.5
+Implement bulk upload in compliance master  -2
+Change in key license renewal dashboard  -4
+Discussion with client for daily schedular -0.15
+Discussion with kananmam for panding works and schedular -0.15
+Implement routing from dashboard for all contractor- 2  -918
+
+25-02-2021
+Update mom sheet -0.15
+Implement routing from dashboard for all contractor- 2 -918
+Implement any/all functionality for bulk upload   -919
+Discussion with client and ali for frequncy wise mail sending
+
+26-02-2021
+
+Compliance Notification
+
+Key License Renewal dashboard
+Compliance management bulk upload not done yet
+
+01-03-2021
+Check any all wft in compliace management
+notification routing
+test notification
+do production release and test functionality.
+analysis for 3rd party api link given by client
+discussion with setu for testing task
+change routing for key license renewal dashboard
+
+2-03-2021
+Test notification in staging environment
+fix issue given by setu for compliance management filter
+analysis for 3rd party api link given by client
+
+3-03-2021
+log added 
+ 
+04-March-2021
+Learn CICD -2.5hrs   -Extra
+
+8-03-2021
+Change data from license expiry count in dashboard
+add columns in contractor license expiry exception report
+watch handover recording for dashboard
+discussion with ankit and gaytri for 3rd party api validation for pan , gst
+
+09-March-2021
+Learn CICD
+
+10-March-2021
+Implement contractors with invalid PAN and GSt exceptional report
+
+11-03-2021
+SL
+
+12-03-2021
+CL
+
+15-03-2021
+Learn CICD
+Discussion with kananmam for sprint planing, status
+Status call with client -0.5
+Apply changes given by Sagar for contractor license expiry report
+
+16-03-2021
+Apply changes given by Sagar for contractor license expiry report
+Update mom sheet
+Learn CICD 
+
+17-03-2021
+Read Document for 3rd party api contract given by Kananmam
+Learn CICD. make 3 pipeline and deployment
+
+ 
+18-03-2021
+Create document for CICD pipeline with Ui
+Discussion with kananmam for NC
+Add RCA in bug.
+Estimation for change static string to string constant.
+
+19-03-2021
+Solve nc for removing static string to string constant.
+Start learning cicd using command
+
+22-03-2021
+Create CI pipeline using command

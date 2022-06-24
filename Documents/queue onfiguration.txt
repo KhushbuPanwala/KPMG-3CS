@@ -1,0 +1,23 @@
+string connectionString = "AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;DefaultEndpointsProtocol=http;BlobEndpoint=http://127.0.0.1:10000/devstoreaccount1;QueueEndpoint=http://127.0.0.1:10001/devstoreaccount1;TableEndpoint=http://127.0.0.1:10002/devstoreaccount1;";
+string queueName = "tenantcreationqueue";
+			
+			
+public static async Task Run([QueueTrigger("tenantcreationqueue", Connection = "")]string myQueueItem, ILogger log)
+string requestedApi = "https://localhost:44301/" + "api/services/app/Tenant/CreateTenantWithAdminUser";
+
+
+https://www.loom.com/share/7976db5d6e4c4d06bda27c308871d49d
+
+
+
+send mail 
+            string connectionString = "AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;DefaultEndpointsProtocol=http;BlobEndpoint=http://127.0.0.1:10000/devstoreaccount1;QueueEndpoint=http://127.0.0.1:10001/devstoreaccount1;TableEndpoint=http://127.0.0.1:10002/devstoreaccount1;";
+            string queueName = "send-email-queue";
+
+            var storageAccount = CloudStorageAccount.Parse(connectionString);
+            CloudQueueClient cloudQueueClient = storageAccount.CreateCloudQueueClient();
+            var queue = cloudQueueClient.GetQueueReference(queueName);
+            await queue.AddMessageAsync(new CloudQueueMessage(JsonConvert.SerializeObject(emailData)));
+
+			
+			"SendEmailQueueName": "send-email-queue",

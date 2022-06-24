@@ -1,0 +1,29 @@
+[4:47 PM] Shingala, Ankit (Guest)
+
+Hi Kanan,
+Below are some specific aspects which needs to be considered
+1. Requirement.
+Preference 1 - To enable dual authentication in 2 methods (SSO and email)
+	SSO for Tenant users and email for Contractors and Contingent Workforce.
+Preference 2 - Enable email authentication for all users (available as part of framework)
+ 
+For email authentication mentioned above :
+Verification of email I'd is a must.
+ 
+This verification can happen with below option
+1. Enable "send activation email" for all users (Tenant, Contractor and Contingent).
+2. In bulk upload, it will not be activated,
+	the admin will have to go individually and activate this option through edit.
+ 
+Password setting
+Current framework - On creating manual entry from front end, an email of "change password" goes to the user.
+ 
+Required Framework-
+1. Allow admin to set password while creating user (tenant, contractor,workforce). 
+   If the password is set by Admin, default email will not go to the user. 
+   However, there is an option which can be enabled by Admin "reset password in next login" 
+   which can be enabled if Admin requires.
+2. If an option "user set password" selected, admin will not insert password and the user will get an email to generate password.
+3. When "user set password" is enabled, "send activation email" will be disabled by default (as the user is verifying email I'd by resetting his password)
+ 
+Hope the above clarifies.

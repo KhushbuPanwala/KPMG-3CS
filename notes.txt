@@ -1,0 +1,280 @@
+Production site 
+		https://k3cs.app 
+		admin 
+		M3FezS89%zFd
+		D3FezS89%zFd
+
+Staging
+https://3cs-staging.azurewebsites.net/account/login
+admin
+123qweA@
+
+		
+KPMG Tenant		
+ankitshingala@kpmg.com
+kpmg#1234
+		
+3CS-Updated Repository
+https://dev.azure.com/kpmggrcs/3CS/_git/3CS-Updated
+
+
+https://promactinfotech1.sharepoint.com/sites/KPMG-ContingentWMS/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FKPMG%2DContingentWMS%2FShared%20Documents%2FKPMG%2D3CS%2FContigent%20Labour%20Workforce%5FConcept%20Paper%2Epdf&parent=%2Fsites%2FKPMG%2DContingentWMS%2FShared%20Documents%2FKPMG%2D3CS
+Staging Database connectionString
+	"Default": "User ID = postgresql@3cs-staging;Password=7outCnDhYXL2xwhqpA3L;Server=3cs-staging.postgres.database.azure.com;Port=5432;Database=master;Integrated Security=true"
+developement database connectionString
+	"Default": "User ID=postgresql@3cs-dev;Password=75AJTcdSiFT4b7rC3x3C;Server=3cs-dev.postgres.database.azure.com;Port=5432;Database=master;Integrated Security=true"
+production connection string
+	"Default": "User ID=vivekkedia@3cs-postgre-dbserver;Password=Kpmg#1234;Server=3cs-postgre-dbserver.postgres.database.azure.com;Port=5432;Database=host;Integrated Security=true"
+
+Development configuration
+    https://portal.azure.com/#@kpmggrcs.onmicrosoft.com/resource/subscriptions/68a20357-ce9f-47a5-8759-77f6d4315aa2/resourceGroups/3CS/providers/Microsoft.Web/sites/3cs-dev/appServices
+Development  --database
+    https://portal.azure.com/#@kpmggrcs.onmicrosoft.com/resource/subscriptions/68a20357-ce9f-47a5-8759-77f6d4315aa2/resourceGroups/3CS/providers/Microsoft.DBforPostgreSQL/servers/3cs-dev/overview
+
+Staging configuration - database
+	https://portal.azure.com/#@kpmggrcs.onmicrosoft.com/resource/subscriptions/68a20357-ce9f-47a5-8759-77f6d4315aa2/resourceGroups/3CS/providers/Microsoft.DBforPostgreSQL/servers/3cs-staging/overview
+Staging configuration
+	https://portal.azure.com/#@kpmggrcs.onmicrosoft.com/resource/subscriptions/68a20357-ce9f-47a5-8759-77f6d4315aa2/resourceGroups/3CS/providers/Microsoft.Web/sites/3cs-staging/appServices
+ 
+Production DB configuration
+ https://portal.azure.com/#@naveenkkpmg.onmicrosoft.com/resource/subscriptions/c8928cd3-6982-4013-86b7-af3e0bdee506/resourceGroups/Contractor_Compliance_Solution/providers/Microsoft.DBforPostgreSQL/servers/postgresql-3cs-db/connectionSecurity
+Production configuration
+ https://portal.azure.com/#@naveenkkpmg.onmicrosoft.com/resource/subscriptions/c8928cd3-6982-4013-86b7-af3e0bdee506/resourceGroups/Contractor_Compliance_Solution/providers/Microsoft.Web/sites/3cs/appServices 
+Tenent wise DB
+ https://portal.azure.com/#@drreddysca.onmicrosoft.com/resource/subscriptions/f4cc8f58-01c8-4451-9744-7493cef156b2/resourceGroups/Contractor_Compliance_Solution/providers/Microsoft.DBforPostgreSQL/servers/3cs-postgre-dbserver/connectionSecurity
+Storage container
+https://portal.azure.com/#@naveenkkpmg.onmicrosoft.com/resource/subscriptions/c8928cd3-6982-4013-86b7-af3e0bdee506/resourceGroups/Contractor_Compliance_Solution/providers/Microsoft.Storage/storageAccounts/3cs/containersList
+Connection string
+  "Default": "User ID=vivekkedia@postgresql-3cs-db;Password=Kpmg#1234;Server=postgresql-3cs-db.postgres.database.azure.com;Port=5432;Database=host;Integrated Security=true"
+ 
+Recording Azure function Creation and push to queue
+https://web.microsoftstream.com/video/db360d09-1134-4825-ace3-1e2deff08741
+Tenant Cration repository -link
+https://dev.azure.com/kpmggrcs/3CS/_git/3CS-TenantCreation-Azure-Function
+ 
+Compliance Reminder Timer Repository --Daily
+https://dev.azure.com/kpmggrcs/3CS/_git/3CS-ComplianceReminderTimer-Azure-Function/pullrequests?_a=mine
+Timer  
+ 
+https://dev.azure.com/kpmggrcs/3CS/_git/3CS-ComplianceReminderQueue-Azure-Function/pullrequests?_a=mine
+Queue
+
+Queue
+https://portal.azure.com/#@naveenkkpmg.onmicrosoft.com/resource/subscriptions/c8928cd3-6982-4013-86b7-af3e0bdee506/resourceGroups/Contractor_Compliance_Solution/providers/Microsoft.Web/sites/3cs-compliance-reminder-queue/appServices
+
+Timer
+https://portal.azure.com/#@naveenkkpmg.onmicrosoft.com/resource/subscriptions/c8928cd3-6982-4013-86b7-af3e0bdee506/resourceGroups/Contractor_Compliance_Solution/providers/Microsoft.Web/sites/3cs-compliance-reminder-timer/users
+ 
+Compliance-Contractor-Detail -->1st day of month 
+https://dev.azure.com/kpmggrcs/3CS/_git/3CS-Compliance-Contractor-Detail-Azure-Function 
+ 
+Azure  portal
+https://portal.azure.com/#home
+
+Azure function configuration- dev
+https://portal.azure.com/#@kpmggrcs.onmicrosoft.com/resource/subscriptions/68a20357-ce9f-47a5-8759-77f6d4315aa2/resourceGroups/3CS/providers/Microsoft.Web/sites/3cs-tenant-creation-dev/configuration
+
+Azure function configuration- staging
+https://portal.azure.com/#@kpmggrcs.onmicrosoft.com/resource/subscriptions/68a20357-ce9f-47a5-8759-77f6d4315aa2/resourceGroups/3CS/providers/Microsoft.Web/sites/3cs-tenant-creation-staging/configuration
+
+
+
+https://github.com/aspnetboilerplate/aspnetboilerplate/issues/771  --log exception
+
+https://promactinfotech1.sharepoint.com/:x:/r/sites/KPMG-ContingentWMS/_layouts/15/Doc.aspx?sourcedoc=%7BE7C1ED9A-64AF-448C-B796-8D7B37D7C8DA%7D&file=List%20-%20Exception%20Report.xlsx&action=default&mobileredirect=true&cid=d1f02850-9877-4129-987d-40ca54f31405
+
+npm start -all
+npm audit fix
+
+
+string connectionString = _appConfiguration["ConnectionStrings:Default"];
+string connectionString = _appConfiguration.GetConnectionString("Default");
+
+https://www.nuget.org/packages/Abp.EntityFrameworkCore.EFPlus
+
+
+Local db connectionString  (migration and host application)
+"Default": "server=localhost;database=K3CS_DEMO;User ID=postgres;password=promact2019;Integrated Security=true"
+
+Configure identity for password
+https://adrientorris.github.io/aspnet-core/identity/configure-password-policy.html
+
+Version Upgrading
+https://docs.aspnetzero.com/en/common/latest/Version-Updating
+
+npm install --save-dev gulp
+
+migration --efproject
+add-migration "Added_TenantUser"
+
+khushbu@1993A
+R@!nB0W$
+
+GSTNo
+91ASCSA1234A1Z1
+
+PANNo
+ABCXY4561Q
+
+IFSC
+ABCS0123asd
+
+
+Queue client
+Account banega 
+object data convert to string 
+queue push 
+function main tenent method api 
+
+httppost request
+
+
+
+KPMG-3CS Developers I have used these regular expressions for these fields. If your modules have same any of these fields, use same regular expressions for maintain consistency.
+Mobile no : ^(\+|\d)[0-9]{7,16}$
+Email id : ^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$
+PAN no : ^([a-zA-Z]){5}([0-9]){4}([a-zA-Z]){1}?$
+GST no : ^[0-9]{2}[A-Z]{5}[0-9]{4}[A-Z]{1}[1-9A-Z]{1}Z[0-9A-Z]{1}$
+IFSC code : ^[A-Za-z]{4}0[A-Z0-9a-z]{6}$
+	
+
+
+set current unit of work
+using (CurrentUnitOfWork.SetTenantId(input.Id))
+
+{
+	var tenantAdmin = await UserManager.GetAdminAsync();
+	tenantEditDto.AdminEmailAddress = tenantAdmin.EmailAddress;
+}
+[class.disabled]="!record.isTenantCreated"
+
+stag
+stag
+
+
+Create script from migration
+https://docs.microsoft.com/en-us/ef/core/cli/dotnet#dotnet-ef-migrations-script
+
+password policy in .aspnetzero
+https://github.com/aspnetboilerplate/aspnetboilerplate/blob/e0ded5d8702f389aa1f5947d3446f16aec845287/src/Abp.Zero.Common/Zero/Configuration/AbpZeroSettingProvider.cs#L9-L121
+https://github.com/aspnetboilerplate/aspnetboilerplate/blob/master/src/Abp.Zero.Common/Zero/Configuration/AbpZeroSettingProvider.cs#L117
+
+
+Captch check v3
+https://developers.google.com/recaptcha/docs/verify
+
+
+Recapta key
+[4:35 PM] Rushi Soni
+Site key: 6Lfv7uUZAAAAAEntM8FDyqLImLyccdKWp7pTCaWi
+Secret key: 6Lfv7uUZAAAAABmhv2vsCyincc4UsSFzSIPeB2T9
+
+Azure function queue
+https://docs.microsoft.com/en-us/azure/azure-functions/functions-host-json-v1#queues
+
+
+
+Production configuration
+Connection String
+User ID=vivekkedia@3cs-postgre-dbserver;Password=Kpmg#1234;Server=3cs-postgre-dbserver.postgres.database.azure.com;Port=5432;Database=host;Integrated Security=true
+
+Default from (sender) email address: noreply@k3cs.app
+Default from (sender) display name: 3CS
+SMTP host: smtp.sendgrid.net
+SMTP port: 587
+SSL: uncheck
+Use default creds: uncheck
+Domain name: blank
+User name: apikey
+Password: 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
+
+
+Production testing Sheet
+https://promactinfotech1.sharepoint.com/sites/KPMG-ContingentWMS/_layouts/15/doc2.aspx?sourcedoc=%7Bd3e981ed-d8a7-4014-aba1-83165e5eb5b6%7D&action=editnew&cid=e59803d0-4b46-49c1-8f1e-e9b29a47b22e
+
+Dashboard sheet
+https://promactinfotech1.sharepoint.com/:x:/r/sites/KPMG-ContingentWMS/_layouts/15/Doc.aspx?sourcedoc=%7B45919A64-911B-4206-B75F-88F920C63250%7D&file=3CS%20-%20Dashboard_Overview_V2.xlsx&action=default&mobileredirect=true&cid=61185e05-3d85-4db7-89dd-5fdc86b93ead
+
+
+
+Knowledge base Doc
+https://promactinfotech1.sharepoint.com/:w:/r/sites/InternalWiki/_layouts/15/guestaccess.aspx?e=WTwFxV&share=ES5_f-0LJFpNpnTgSu4lk5YBKgIyPnejdjvPJCqb6PSmFA
+
+Form fill up for knowledge base
+https://forms.office.com/Pages/ResponsePage.aspx?id=8Qt0lLwfAkSq9jeaezJXAY0UYdtk15xAmhk80_n_FXxUNkxBTzZJMVFNUkpVS0lFTDZGMlJJRjdQUS4u
+
+Knowledge Base library
+https://promactinfotech1.sharepoint.com/sites/InternalWiki/Lists/Knowledge%20Reusability/AllItems.aspx
+
+Audit log structure in aspnet zero
+https://docs.abp.io/en/abp/latest/Audit-Logging
+
+
+Provide IE Support
+https://www.infoq.com/news/2014/01/ie11-browser-detection-aspnet/
+https://support.aspnetzero.com/QA/Questions/3768/CANNOT-LOGIN-WITH-IE-11-Unknown-Issue
+
+https://support.aspnetzero.com/QA/Questions/5797/Internet-explorer-support
+
+Update abp-ng2-module --working
+Note: Excel js not supported
+https://developer.aliyun.com/mirror/npm/package/abp-ng2-module
+npm install abp-ng2-module
+
+
+Email Scheduling
+https://web.microsoftstream.com/video/6e18795a-4442-48f7-b875-0b5a9dbed57e
+
+Audit log
+https://docs.abp.io/en/abp/latest/Audit-Logging
+
+Email Azure Repository
+https://dev.azure.com/kpmggrcs/Compliance%20Hub/_git/KPMGComplianceHub-Send-Email-Queue-Trigger-Azure-Function
+
+
+RCA Link
+https://promactinfotech1.sharepoint.com/:w:/s/ValueScout/EevHWSddcDVFisTLuC7TGxMB4Ylr_sZieJeUZ6R33lR5fA?e=T8Nja7
+
+
+Browser user agent information parser
+https://www.npmjs.com/package/ua-parser-js
+npm i ua-parser-js
+
+
+Send mail queue function in Development
+dev old connection string 
+DefaultEndpointsProtocol=https;AccountName=3csdev;AccountKey=BYiQXgyBu1YudHVDh2l7DWC8BVxCxIcILQ56KEr5vkgNkOyw+h1V9+8HudRfXEdHql+ykgPDXfZOG2ZHPVkiGw==;EndpointSuffix=core.windows.net
+
+Production tenant db 
+dummy
+Dummy@123
+
+
+
+Handover recording
+https://web.microsoftstream.com/video/dc3c6842-81cc-42f5-8f15-c51e652e92e1
+
+
+3rd Party Api
+https://free-for.dev/#/
+
+
+
+
+ Construction Activity Module
+Need to add Contractor selection then show Contingent work force selection 
+add radio button with yes and no option to add beneficiary
+If yes then add beneficiary name 
+After save
+When workforce create experience letter then in 14 no filed show construction active welfare no.
+
+construction activity change request
+
+1. bulk upload 
+	option 1 -single sheet  -->20 hrs
+		Drawback repeated data need to add all column except year wise data column 
+	Option 2 - multiple sheet --> 20hrs
+		Drawback Time consuming (get 1 row from one sheet get and compare with sheet 2 matching data)
+2 	Export to excel
+	Option 1 - single sheet -with repeated data and different data for year  -14 hrs (like option1 bulk upload)
+	option 2 - 2 sheet - 1 sheet contain main data 2nd sheet contain year wise data -18 hrs (like oprion2 bulk upload)

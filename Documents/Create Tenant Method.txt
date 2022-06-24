@@ -1,0 +1,167 @@
+
+        /// <summary>
+        /// Create tenant backgound process job
+        /// </summary>
+        /// <param name="tenant">Tenant detail</param>
+        /// <param name="adminPassword">Tenant admin password</param>
+        /// <param name="shouldChangePasswordOnNextLogin">is password change on next login</param>
+        /// <param name="sendActivationEmail">is send activation mail</param>
+        /// <param name="passwordActivationLink">is send password reset mail</param>
+        /// <param name="subscriptionEndDate">Subscription end date</param>
+        /// <param name="emailActivationLink">email activation link</param>
+        /// <returns>Created tenant id</returns>
+        public async Task<int> CreateWithAdminUserAsync(
+            Tenant tenant,
+            string adminPassword,
+            bool shouldChangePasswordOnNextLogin,
+            bool sendActivationEmail,
+            DateTime? subscriptionEndDate,
+            string emailActivationLink,
+            string passwordActivationLink,
+            NatureOfService natureOfService,
+            Country country,
+            Territory territory)
+        {
+            //convert string to json and object
+            int newTenantId;
+            long newAdminId;
+
+            User adminUser = new User();
+            await CheckEditionAsync(tenant.EditionId, tenant.IsInTrialPeriod);
+
+            if (tenant.IsInTrialPeriod && !subscriptionEndDate.HasValue)
+            {
+                throw new UserFriendlyException(LocalizationManager.GetString(KPMG3CSConsts.LocalizationSourceName, "TrialWithoutEndDateErrorMessage"));
+            }
+
+            using (var uow = _unitOfWorkManager.Begin(TransactionScopeOption.RequiresNew))
+            {
+
+                await CreateAsync(tenant);
+                await _unitOfWorkManager.Current.SaveChangesAsync();
+
+                //Create tenant database
+                _abpZeroDbMigrator.CreateOrMigrateForTenant(tenant);
+
+                //Create tenant wise azure file storage container
+                var containerName = tenant.TenancyName.ToLower() + "-" + tenant.Id.ToString();
+                await _azureStorageManager.CreateContainer(containerName);
+
+                //We are working entities of new tenant, so changing tenant filter
+                using (_unitOfWorkManager.Current.SetTenantId(tenant.Id))
+                {
+                    // save  container name for the tenant
+                    tenant.StorageContainerName = containerName;
+
+                    //Create static roles for new tenant
+                    CheckErrors(await _roleManager.CreateStaticRoles(tenant.Id));
+                    await _unitOfWorkManager.Current.SaveChangesAsync(); //To get static role ids
+
+                    //grant all permissions to admin role
+                    var adminRole = _roleManager.Roles.Single(r => r.Name == StaticRoleNames.Tenants.TenantAdmin && r.IsStatic);
+                    await _roleManager.GrantAllPermissionsAsync(adminRole);
+
+                    #region seed-data
+                    // seed default roles 
+                    await SeedDefaultRoleAndPermissionForTenantAsync(tenant.Id);
+
+                    // seed default workFlow Templates 
+                    _adminPanelManger.SeedWorkFlowTemplate(tenant.Id, AbpSession.UserId);
+
+                    //seed frequeency data 
+                    await SeedFrequencyDataForTenantAsync(tenant.Id);
+                    #endregion
+                    //Create admin user for the tenant
+                    adminUser = User.CreateTenantAdminUser(tenant.Id, tenant.Email, tenant.UserName, tenant.FirstName, tenant.LastName);
+                    adminUser.ShouldChangePasswordOnNextLogin = shouldChangePasswordOnNextLogin;
+                    adminUser.IsActive = true;
+                    adminUser.UserStatus = UserStatus.Active;
+
+                    if (adminPassword.IsNullOrEmpty())
+                    {
+                        adminPassword = await _userManager.CreateRandomPassword();
+                    }
+                    else
+                    {
+                        await _userManager.InitializeOptionsAsync(AbpSession.TenantId);
+                        foreach (var validator in _userManager.PasswordValidators)
+                        {
+                            CheckErrors(await validator.ValidateAsync(_userManager, adminUser, adminPassword));
+                        }
+
+                    }
+
+                    adminUser.Password = _passwordHasher.HashPassword(adminUser, adminPassword);
+
+                    CheckErrors(await _userManager.CreateAsync(adminUser));
+                    await _unitOfWorkManager.Current.SaveChangesAsync(); //To get admin user's id
+
+                    //Assign admin user to admin role!
+                    CheckErrors(await _userManager.AddToRoleAsync(adminUser, adminRole.Name));
+
+                    //Notifications
+                    await _appNotifier.WelcomeToTheApplicationAsync(adminUser);
+
+                    //Send activation email
+                    if (sendActivationEmail)
+                    {
+                        adminUser.SetNewEmailConfirmationCode();
+                        await _userEmailer.SendEmailActivationLinkAsync(adminUser, emailActivationLink, adminPassword);
+
+                    }
+
+                    //send password reset mail
+                    adminUser.SetNewPasswordResetCode();
+                    await _userEmailer.SendPasswordResetLinkAsync(adminUser, passwordActivationLink);
+
+                    await _unitOfWorkManager.Current.SaveChangesAsync();
+
+                    await _demoDataBuilder.BuildForAsync(tenant);
+
+                    newTenantId = tenant.Id;
+                    newAdminId = adminUser.Id;
+                }
+
+                await uow.CompleteAsync();
+            }
+
+            //Used a second UOW since UOW above sets some permissions and _notificationSubscriptionManager.SubscribeToAllAvailableNotificationsAsync needs these permissions to be saved.
+            using (var uow = _unitOfWorkManager.Begin(TransactionScopeOption.RequiresNew))
+            {
+                using (_unitOfWorkManager.Current.SetTenantId(newTenantId))
+                {
+                    await _notificationSubscriptionManager.SubscribeToAllAvailableNotificationsAsync(new UserIdentifier(newTenantId, newAdminId));
+                    await _unitOfWorkManager.Current.SaveChangesAsync();
+                    await uow.CompleteAsync();
+                }
+            }
+
+            #region Create masters data
+            using (var uow = _unitOfWorkManager.Begin(TransactionScopeOption.RequiresNew))
+            {
+                using (_unitOfWorkManager.Current.SetTenantId(newTenantId))
+                {
+                    #region Nature of Service
+                    natureOfService.TenantId = newTenantId;
+                    await _natureOfServicesService.InsertAsync(natureOfService);
+                    #endregion
+
+                    #region Create Country
+                    country.TenantId = newTenantId;
+                    await _countriesService.InsertAsync(country);
+                    #endregion
+
+                    #region Create Territory
+                    territory.TenantId = newTenantId;
+                    territory.CountryId = country.Id;
+                    await _territoriesService.InsertAsync(territory);
+                    #endregion
+
+                    await _unitOfWorkManager.Current.SaveChangesAsync();
+                    await uow.CompleteAsync();
+                }
+            }
+            #endregion
+
+            return newTenantId;
+        }
